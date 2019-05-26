@@ -1,0 +1,9 @@
+{
+  "name": "go-wasm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "GOOS=js GOARCH=wasm go build -o main.wasm"
+  },
+  "license": "ISC"
+}
